@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://rajeshsonionline.in</licenseUrl>
+    <projectUrl>http://blog.rajeshsonionline.in</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial Draft of .NET library for any console application.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>dotnet Utils</tags>
+  </metadata>
+</package>

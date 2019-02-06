@@ -1,0 +1,24 @@
+>>>>>>nuget spec rsoni.UtilsLibrary.csproj
+--------------------------------------------------------------------------------
+Run the following command: nuget spec UtilsLibrary.csproj. By specifying a project, NuGet creates a manifest that matches the name of the project, 
+in this case UtilsLibrary.nuspec. It also include replacement tokens in the manifest.
+
+-------------------------------------------------------------------------------
+
+
+
+>>>>>>nuget pack
+Attempting to build package from 'rsoni.UtilsLibrary.csproj'.
+MSBuild auto-detection: using msbuild version '15.3.409.57025' from 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin'.
+Packing files from 'C:\TFSMapping\AzurePOCs\CommonSolution\UtilsLibrary\bin\Debug'.
+Using 'rsoni.UtilsLibrary.nuspec' for metadata.
+Successfully created package 'C:\TFSMapping\AzurePOCs\CommonSolution\UtilsLibrary\rsoni.UtilsLibrary.1.0.0.nupkg'.
+WARNING: NU5125: The 'licenseUrl' element will be deprecated. Consider using the 'license' element instead.
+
+>>>>>>nuget push rsoni.UtilsLibrary.1.0.0.nupkg oy2eg3htbzzka4o7so4a2zg5furc337ejomjk6qcrgmmpq -Source https://api.nuget.org/v3/index.json
+Pushing rsoni.UtilsLibrary.1.0.0.nupkg to 'https://www.nuget.org/api/v2/package'...
+  PUT https://www.nuget.org/api/v2/package/
+WARNING: <licenseUrl> element will be deprecated,please consider switching to specifying the license in the package. Learn more: https://aka.ms/deprecateLicenseUrl.
+  Created https://www.nuget.org/api/v2/package/ 1986ms
+Your package was pushed.
+
